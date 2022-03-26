@@ -3,90 +3,147 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Week 3 ePortfolio part 2</title>
+	<title>Week 7 ePortfolio part 1</title>
+	<style type="text/css">
+		
+		#container{
+			width: 600px;
+			margin: 0px auto;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		
+		h3{
+			text-align: center;
+		}
+		.one{
+			padding: 5px 0px;
+			width: 400px;
+			display: inline-block;
+		}
+		.two{
+			box-sizing: border-box;
+			flex-grow: 1;
+			display: flex;
+			padding: 5px 0px;
+		}
+		.three{
+			flex-grow: 1;
+		}
+		.four{
+			box-sizing: border-box;
+			text-align: center;
+			padding: 5px 0px;
+			flex: 100%;
+			
+		}
+
+	</style>
 	
 </head>
 <body id="container">
 <h3>Registration for Covid-19 Volunteer - C19-Team</h3>
 <form method="" action="">
 
-		<div>
+	
+		<div class="one">
 			<label>Fullname</label>
 		</div>
-			<input type="text" name="fullname" placeholder="Fullname" pattern="[A-za-z]{1-30}" >
+		<div class="two">
+			<input class="three" type="text" name="fullname" placeholder="Fullname" pattern="[A-za-z]{1-30}" >
+		</div>
+
 	
-		<div>
+		<div class="one">
 			<label>Email</label>
 		</div>
-			<input type="email" name="email" placeholder="email">
-		
-		<div>
+		<div class="two">
+			<input class="three" type="email" name="email" placeholder="email">
+		</div>
+
+	
+		<div class="one">
 			<label>Date you can start</label>
 		</div>
-			<input type="date" name="date">
+		<div class="two">
+			<input class="three" type="date" name="date">
+		</div>
 		
-		<div>
+	
+		<div class="one">
 			<label>Morning shift preference</label>
 		</div>
-			<input type="time">
+		<div class="two">
+			<input class="three" type="time">
+		</div>
 
-		<div>
+	
+		<div class="one">
 		 	<label>Evening shift perference</label>
 		</div>
-			<input type="time">
+		<div class="two">
+			<input class="three" type="time">
+		</div>
 	
-		<div>
+	
+		<div class="one">
 			<label>How many hours you can work? In multiple of 3</label>
 		</div>
+		<div class="two">
+		<select class="three">
+			<option>please select</option>
+			<option>3</option>
+			<option>6</option>
+			<option>9</option>
+		</select>
+		</div>
 
-	<select>
-		<option>please select</option>
-		<option>3</option>
-		<option>6</option>
-		<option>9</option>
-	</select>
-	</tr>
-		
-	<div>
-		<label>Distance you willing to commute to volunteer center?</label>
-	</div>
-		1<input type="range" min="1" max="15" value="3">15
 	
+		<div class="one">
+			<label>Distance you willing to commute to volunteer center?</label>
+		</div>
+		<div class="two">
+			1<input class="three" type="range" min="1" max="15" value="3">15
+		</div>
 
-	<div>
-		<label>You currency perference for payment?</label>
-	</div>
-		<input type="radio" name="currency"> &pound;
-		<input type="radio" name="currency"> &yen;
-		<input type="radio" name="currency "> &euro;
 	
 	
-	<div>
+		<div class="one">
+			<label>You currency perference for payment?</label>
+		</div>
+		<div class="two">
+			<input class="three" type="radio" name="currency"> &pound;
+			<input class="three" type="radio" name="currency"> &yen;
+			<input class="three"  type="radio" name="currency "> &euro;
+		</div>
+	
+	
+	<div class="four">
 		<input type="text" name="address" placeholder="Type your home address">
 	</div>
 
-	<div>
+	<div class="four">
 		<strike>You will be given daily meals</strike>
 	</div>
 
-	<div>
+	<div class="four">
 		<input type="checkbox">I agree to all terms and conditions
 	</div>
 
-	<div>
+	<div class="four">
 		Prove you are not robot: 10 &lt; 20?<input type="checkbox">
 	</div>
 
-	<div>
+	<div class="four">
 		<input type="submit" value="Volunteer now!">
 	</div>
 	
 
-	<div>
+	<div class="four">
 		<a href="week3-e-p2.html"></a><button>Start over</button>
 	</div>
 
-	<div>
+	<div class="fourclass">
 		For more informaton, visit MOH<a href="http://www.google.com" target="_blank">website</a> 
 	</div>
 
